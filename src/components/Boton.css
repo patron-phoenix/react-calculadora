@@ -1,0 +1,18 @@
+button{
+    border: none;
+    border-radius: 50%;
+    background-color: var(--terciario);
+    font-size: 2rem;
+    aspect-ratio: 1/1;
+}
+
+button:active{
+    transform:  scale(1.02);
+}
+button.gris{
+    background-color: var(--secundario);
+}
+button.operacion{
+    background-color: var(--primario);
+    color:var(--terciario);
+}
